@@ -1,0 +1,18 @@
+height_cm = "175"
+weight_kg = "68.5"
+
+# convert string into numeric values
+height_cm = int(height_cm)
+weight_kg = float(weight_kg)
+
+# convert height into meters
+height_m = height_cm / 100
+
+# Calculation BMI
+bmi = weight_kg / (height_m * 2)
+
+print("Height:", height_m, "meters")
+
+print("Weight:", weight_kg, "kg")
+
+print("BMI:", round(bmi, 2))
