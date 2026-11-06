@@ -9,7 +9,7 @@ weight_kg = float(weight_kg)
 height_m = height_cm / 100
 
 # Calculation BMI
-bmi = weight_kg / (height_m * 2)
+bmi = weight_kg / (height_m * height_m)
 
 print("Height:", height_m, "meters")
 
